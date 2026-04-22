@@ -27,20 +27,158 @@ The frontend login page sends submitted credentials to the backend API, which st
 
 ## 🏗️ Architecture
 
-```text
-User Browser
-     │
-     ▼
-Frontend (Nginx)
-     │
-     ▼
-Backend API (Flask)
-     │
-     ▼
+User Browser  
+⬇️  
+Frontend (Nginx)  
+⬇️  
+Backend API (Flask)  
+⬇️  
 MySQL Database
 
-Mohamed Mosad
+Managed entirely using Kubernetes.
 
-🔗 GitHub: https://github.com/Mohamed-Mosad-98
+---
 
+## 🛠️ Technologies Used
+
+- Kubernetes (Minikube)
+- Docker
+- Python Flask
+- MySQL
+- Nginx
+- HTML / CSS
+- Ubuntu Linux
+- VMware Workstation
+- Git & GitHub
+
+---
+
+## 📁 Project Structure
+
+k8s-project/
+├── Backend/
+│   ├── app.py
+│   ├── requirements.txt
+│   └── Dockerfile
+│
+├── my-nginx/
+│   ├── Dockerfile
+│   └── html/
+│       └── index.html
+│
+└── k8s/
+    ├── frontend-deployment.yaml
+    ├── frontend-service.yaml
+    ├── backend-deployment.yaml
+    ├── backend-service.yaml
+    ├── mysql-deployment.yaml
+    └── mysql-service.yaml
+
+---
+
+## ☸️ Kubernetes Resources
+
+### Deployments
+
+- Frontend Deployment
+- Backend Deployment
+- MySQL Deployment
+
+### Services
+
+- Frontend Service (**NodePort**)
+- Backend Service
+- MySQL Service (**ClusterIP**)
+
+---
+
+## ⚙️ Deployment Steps
+
+### 1️⃣ Build Docker Images
+
+docker build -t frontend-image ./my-nginx  
+docker build -t backend-image ./Backend
+
+### 2️⃣ Start Minikube
+
+minikube start
+
+### 3️⃣ Apply Kubernetes Files
+
+kubectl apply -f k8s/
+
+### 4️⃣ Verify Running Resources
+
+kubectl get pods  
+kubectl get svc
+
+---
+
+## ✅ Project Results
+
+- Frontend page deployed successfully
+- Backend API connected successfully
+- MySQL database working correctly
+- Credentials inserted into database
+- Services exposed via Kubernetes
+- Full project running inside Minikube cluster
+
+---
+
+## 📷 Screenshots
+
+### 🔹 Frontend Login Page
+
+(Add screenshot here)
+
+### 🔹 Successful Submission
+
+(Add screenshot here)
+
+### 🔹 Stored Credentials in MySQL
+
+(Add screenshot here)
+
+### 🔹 Running on Ubuntu VM (VMware)
+
+(Add screenshot here)
+
+---
+
+## 🎯 Skills Demonstrated
+
+- Kubernetes Administration
+- Docker Containerization
+- Multi-tier Application Deployment
+- Flask API Development
+- Database Integration
+- Linux System Usage
+- Troubleshooting Services
+- YAML Configuration
+- Networking Concepts
+- DevOps Fundamentals
+
+---
+
+## 💼 Why This Project Matters
+
+This project reflects practical hands-on experience with technologies commonly required in:
+
+- DevOps Engineer Roles
+- Cloud Engineer Roles
+- Site Reliability Engineer (SRE)
+- Platform Engineering
+- Infrastructure Support
+
+---
+
+## 👨‍💻 Author
+
+**Mohamed Mosad**
+
+🔗 GitHub: https://github.com/Mohamed-Mosad-98  
 🔗 LinkedIn: https://www.linkedin.com/in/mohamed-mosad-fahmy/
+
+---
+
+## ⭐ If you found this project useful, feel free to star the repository.
