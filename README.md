@@ -74,7 +74,7 @@ k8s-project/
     ├── backend-service.yaml
     ├── mysql-deployment.yaml
     └── mysql-service.yaml
-
+---
 ## ☸️ Kubernetes Resources
 
 ### Deployments
