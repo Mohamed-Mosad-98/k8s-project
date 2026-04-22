@@ -38,3 +38,9 @@ Backend API (Flask)
      │
      ▼
 MySQL Database
+
+Mohamed Mosad
+
+🔗 GitHub: https://github.com/Mohamed-Mosad-98
+
+🔗 LinkedIn: https://www.linkedin.com/in/mohamed-mosad-fahmy/
