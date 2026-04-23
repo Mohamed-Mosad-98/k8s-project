@@ -54,7 +54,7 @@ Managed entirely using Kubernetes.
 ---
 
 ## 📁 Project Structure
-
+```bash
 k8s-project/
 ├── Backend/
 │   ├── app.py
