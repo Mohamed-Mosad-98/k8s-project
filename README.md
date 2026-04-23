@@ -1,3 +1,4 @@
+<img width="1920" height="1080" alt="Frontend" src="https://github.com/user-attachments/assets/aa1c333b-838d-4d30-8fd4-f66b469a09a9" />
 # 🚀 k8s-project
 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
@@ -129,19 +130,22 @@ kubectl get svc
 
 ### 🔹 Frontend Login Page
 
-(Add screenshot here)
+<img width="1920" height="1080" alt="Frontend" src="https://github.com/user-attachments/assets/fa9e4166-13d9-4e16-a7d7-b3c3467fba35" />
+
 
 ### 🔹 Successful Submission
 
-(Add screenshot here)
+
+<img width="427" height="490" alt="Auth" src="https://github.com/user-attachments/assets/11784373-b135-4d96-b964-92439cacbe0f" />
+
 
 ### 🔹 Stored Credentials in MySQL
 
-(Add screenshot here)
-
+<img width="737" height="812" alt="submited" src="https://github.com/user-attachments/assets/9a8c7a3a-89af-4629-bfe7-11df8284d778" />
 ### 🔹 Running on Ubuntu VM (VMware)
 
-(Add screenshot here)
+<img width="675" height="257" alt="mysql" src="https://github.com/user-attachments/assets/5ab9e7ca-b500-456f-a59a-5e4fae4885ba" />
+
 
 ---
 
