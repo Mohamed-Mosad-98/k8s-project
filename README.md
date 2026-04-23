@@ -55,6 +55,7 @@ Managed entirely using Kubernetes.
 ---
 
 ## 📁 Project Structure
+
 k8s-project/
 ├── Backend/
 │   ├── app.py
@@ -183,4 +184,4 @@ This project reflects practical hands-on experience with technologies commonly r
 
 ---
 
-## ⭐ If you found this project useful, feel free to star the repository.
+
