@@ -55,7 +55,7 @@ Managed entirely using Kubernetes.
 ---
 
 ## 📁 Project Structure
-
+```
 k8s-project/
 ├── Backend/
 │   ├── app.py
@@ -74,6 +74,7 @@ k8s-project/
     ├── backend-service.yaml
     ├── mysql-deployment.yaml
     └── mysql-service.yaml
+```
 
 ---
 
