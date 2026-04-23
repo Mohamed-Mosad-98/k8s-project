@@ -132,15 +132,15 @@ kubectl get svc
 
 <img width="1920" height="1080" alt="Frontend" src="https://github.com/user-attachments/assets/fa9e4166-13d9-4e16-a7d7-b3c3467fba35" />
 
-### 🔹 Backend API Response - Success Submission
+### 🔹user-login-input
 
 <img width="427" height="490" alt="Auth" src="https://github.com/user-attachments/assets/11784373-b135-4d96-b964-92439cacbe0f" />
 
-### 🔹 Stored Credentials in MySQL
+### 🔹  Backend API Response - Success Submission
 
 <img width="737" height="812" alt="submited" src="https://github.com/user-attachments/assets/9a8c7a3a-89af-4629-bfe7-11df8284d778" />
 
-### 🔹 Data Persistence in MySQL Database
+### 🔹 Stored Credentials in MySQL
 
 <img width="675" height="257" alt="mysql" src="https://github.com/user-attachments/assets/5ab9e7ca-b500-456f-a59a-5e4fae4885ba" />
 
