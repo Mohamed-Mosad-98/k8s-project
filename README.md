@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="Frontend" src="https://github.com/user-attachments/assets/aa1c333b-838d-4d30-8fd4-f66b469a09a9" />
+
 # 🚀 k8s-project
 
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
